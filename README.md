@@ -7,6 +7,7 @@ docker compose up -d db
 docker ps -a
 docker exec -it db psql -U postgres
 \l
+\dt
 
 backend
 go mod init api
